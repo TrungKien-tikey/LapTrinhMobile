@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="back_button">Back Button</string>
+    <string name="notes_button">Notes Button</string>
+    <string name="trung_kien">Trung Kien</string>
+    <string name="tp_hcm_viet_nam">TP HCM, Viet Nam</string>
+</resources>
