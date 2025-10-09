@@ -41,7 +41,7 @@
         android:backgroundTint="#007BFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/et_email" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_email_result" />
 
     <TextView
         android:id="@+id/tv_email_result"
@@ -51,7 +51,7 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_check_email"
+        app:layout_constraintTop_toBottomOf="@id/et_email"
         tools:text="Đây là nơi hiển thị kết quả" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
