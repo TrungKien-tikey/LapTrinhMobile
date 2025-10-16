@@ -11,27 +11,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-
         <activity
-            android:name=".ThucHanh2Activity"
-            android:exported="true">
-
-        </activity>
-
-        <activity
-            android:name=".ThucHanhEmailActivity"
-            android:exported="true">
-        </activity>
-
-        <activity
-            android:name=".ThucHanhAgeActivity"
-            android:exported="true">
+            android:name=".ProfileScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApplication">
+            <!-- 2. Khối intent-filter này được chuyển vào đây -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+
+        <activity
+            android:name=".ThucHanhNhapTen"
+            android:exported="true" />
+        <activity
+            android:name=".ThucHanh2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".ThucHanhEmailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ThucHanhAgeActivity"
+            android:exported="true"/>
+
+
     </application>
 
 </manifest>
