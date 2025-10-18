@@ -184,8 +184,8 @@ fun PasswordFieldDetailScreen(onBackClick: () -> Unit) {
         title = "Password Field Detail",
         onBackClick = onBackClick
     ) { paddingValues ->
-        var passwordVisible by remember { mutableStateOf(false) }
-        var password by remember { mutableStateOf("") }
+        var passwordVisible by remember { mutableStateOf(false) }//biến trạng thái thứ hai để kiểm soát việc mật khẩu đang được ẩn hay hiện
+        var password by remember { mutableStateOf("") }//  biến trạng thái để lưu trữ nội dung
         Column(
             modifier = Modifier
                 .fillMaxSize()
